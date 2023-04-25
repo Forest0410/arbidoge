@@ -416,7 +416,7 @@ export default function TokenDetails() {
                           style={{
                             backgroundColor: "#8364E2",
                             color: "white",
-                            padding: "0.5rem 1rem",
+                            padding: "0.5rem 0.5rem",
                             marginRight: "10px"
                           }}
                           disabled={invite == null ? false : invite.twitter}
@@ -442,7 +442,7 @@ export default function TokenDetails() {
                           style={{
                             backgroundColor: "#8364E2",
                             color: "white",
-                            padding: "0.5rem 1rem",
+                            padding: "0.5rem 0.5rem",
                             marginRight: "10px"
                           }}
                           disabled={invite == null ? false : invite.retweet}
@@ -466,7 +466,7 @@ export default function TokenDetails() {
                           style={{
                             backgroundColor: "#8364E2",
                             color: "white",
-                            padding: "0.5rem 1rem",
+                            padding: "0.5rem 0.5rem",
                             marginRight: "10px"
                           }}
                           onClick={() => handleSocial("discord")}
