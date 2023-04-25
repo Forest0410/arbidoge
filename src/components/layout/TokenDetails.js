@@ -331,13 +331,13 @@ export default function TokenDetails() {
                 <div className="row mt-4 text-center justify-content-between">
                   <div className="col-6 col-sm-6 col-md-6 col-lg-6 pt-1 h6-font">
                     <p>
-                      <span>{balance}</span> ARBIDOGE
+                      <span>1000000000</span> ARBIDOGE
                     </p>
                     <p>Balance</p>
                   </div>
                   <div className="col-6 col-sm-6 col-md-6 col-lg-6 pt-1 h6-font">
                     <p>
-                      <span>{rewards}</span> ARBIDOGE
+                      <span>1000000000</span> ARBIDOGE
                     </p>
                     <p>Rewards</p>
                   </div>
@@ -416,6 +416,7 @@ export default function TokenDetails() {
                           style={{
                             backgroundColor: "#8364E2",
                             color: "white",
+                            padding: "0.5rem 1rem"
                           }}
                           disabled={invite == null ? false : invite.twitter}
                           onClick={() => handleSocial("twitter")}
@@ -440,6 +441,7 @@ export default function TokenDetails() {
                           style={{
                             backgroundColor: "#8364E2",
                             color: "white",
+                            padding: "0.5rem 1rem"
                           }}
                           disabled={invite == null ? false : invite.retweet}
                           onClick={() => handleSocial("retweet")}
@@ -462,6 +464,7 @@ export default function TokenDetails() {
                           style={{
                             backgroundColor: "#8364E2",
                             color: "white",
+                            padding: "0.5rem 1rem"
                           }}
                           onClick={() => handleSocial("discord")}
                           disabled={invite == null ? false : invite.discord}
