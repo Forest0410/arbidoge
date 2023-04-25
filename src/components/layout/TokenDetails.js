@@ -350,7 +350,7 @@ export default function TokenDetails() {
                     </p>
                     <p>Referred</p>
                   </div>
-                  {isMobile == false && (
+                  {/* {isMobile == false && ( */}
                     <div className="col-6 col-sm-6 col-md-6 col-lg-6 justify-content-center pt-1">
                       <button
                         id="withdraw"
@@ -362,9 +362,9 @@ export default function TokenDetails() {
                         Withdraw
                       </button>
                     </div>
-                  )}
+                  {/* )} */}
                 </div>
-                {isMobile && (
+                {/* {isMobile && (
                   <div className="row mt-4 text-center justify-content-between">
                     <div className="col-12 pt-1">
                       <div className="row justify-content-center">
@@ -399,7 +399,7 @@ export default function TokenDetails() {
                       </div>
                     </div>
                   </div>
-                )}
+                )} */}
                 <div className="row mt-5 justify-content-between">
                   <div className="col-12">
                     <div className="row justify-content-between socialArray">
