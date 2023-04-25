@@ -333,13 +333,13 @@ export default function TokenDetails() {
                     <p>
                       <span>1000000000</span> ARBIDOGE
                     </p>
-                    <p>Balance</p>
+                    <p style={{fontWeight: "bold"}}>Balance</p>
                   </div>
                   <div className="col-6 col-sm-6 col-md-6 col-lg-6 pt-1 h6-font">
                     <p>
                       <span>1000000000</span> ARBIDOGE
                     </p>
-                    <p>Rewards</p>
+                    <p style={{fontWeight: "bold"}}>Rewards</p>
                   </div>
                   <div className="col-12 col-sm-12 col-md-12">
                     <hr style={{borderTopColor: "white"}}></hr>
@@ -348,7 +348,7 @@ export default function TokenDetails() {
                     <p>
                       <span>{total}</span>
                     </p>
-                    <p>Referred</p>
+                    <p style={{fontWeight: "bold"}}>Referred</p>
                   </div>
                   {/* {isMobile == false && ( */}
                     <div className="col-6 col-sm-6 col-md-6 col-lg-6 justify-content-center pt-1">
